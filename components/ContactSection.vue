@@ -1,7 +1,7 @@
 <template>
   <section
     id="contact"
-    class="py-20 text-white relative overflow-hidden"
+    class="py-12 sm:py-16 md:py-20 text-white relative overflow-hidden"
     style="background: linear-gradient(135deg, #1946b9 0%, #153d9e 100%)"
   >
     <!-- Patterns -->
@@ -26,70 +26,79 @@
       :z-index="0"
     />
 
-    <div class="container relative z-10">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-white">
+    <div class="container relative z-10 px-4">
+      <div class="text-center mb-10 sm:mb-12 md:mb-16">
+        <h2
+          class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4 text-white"
+        >
           {{ $t("contact.title") }}
         </h2>
-        <p class="text-xl max-w-3xl mx-auto text-white/90">
+        <p
+          class="text-base sm:text-lg md:text-xl max-w-3xl mx-auto text-white/90"
+        >
           {{ $t("contact.subtitle") }}
         </p>
       </div>
 
       <div class="max-w-2xl mx-auto">
-        <form @submit.prevent="handleSubmit" class="space-y-6">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <form @submit.prevent="handleSubmit" class="space-y-4 sm:space-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             <div>
-              <label class="block text-sm font-semibold mb-2 text-white">{{
-                $t("contact.form.name")
-              }}</label>
+              <label
+                class="block text-xs sm:text-sm font-semibold mb-2 text-white"
+                >{{ $t("contact.form.name") }}</label
+              >
               <input
                 v-model="form.name"
                 type="text"
                 required
-                class="w-full px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-white"
+                class="w-full px-3 sm:px-4 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base text-gray-900 focus:outline-none focus:ring-2 focus:ring-white"
                 :placeholder="$t('contact.form.namePlaceholder')"
               />
             </div>
             <div>
-              <label class="block text-sm font-semibold mb-2 text-white">{{
-                $t("contact.form.phone")
-              }}</label>
+              <label
+                class="block text-xs sm:text-sm font-semibold mb-2 text-white"
+                >{{ $t("contact.form.phone") }}</label
+              >
               <input
                 v-model="form.phone"
                 type="tel"
                 required
-                class="w-full px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-white"
+                class="w-full px-3 sm:px-4 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base text-gray-900 focus:outline-none focus:ring-2 focus:ring-white"
                 :placeholder="$t('contact.form.phonePlaceholder')"
               />
             </div>
           </div>
 
           <div>
-            <label class="block text-sm font-semibold mb-2 text-white">{{
-              $t("contact.form.message")
-            }}</label>
+            <label
+              class="block text-xs sm:text-sm font-semibold mb-2 text-white"
+              >{{ $t("contact.form.message") }}</label
+            >
             <textarea
               v-model="form.message"
               rows="4"
               required
-              class="w-full px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-white resize-none"
+              class="w-full px-3 sm:px-4 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base text-gray-900 focus:outline-none focus:ring-2 focus:ring-white resize-none"
               :placeholder="$t('contact.form.messagePlaceholder')"
             ></textarea>
           </div>
 
           <button
             type="submit"
-            class="w-full px-8 py-4 rounded-lg text-lg font-semibold hover:opacity-90 transition-colors shadow-lg"
+            class="w-full px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:opacity-90 transition-colors shadow-lg"
             style="background-color: #fed116; color: #1946b9"
           >
             {{ $t("contact.form.submit") }}
           </button>
         </form>
 
-        <div class="mt-12 text-center">
-          <p class="text-lg mb-4 text-white">{{ $t("contact.location") }}</p>
-          <p class="text-2xl font-bold text-white">
+        <div class="mt-8 sm:mt-10 md:mt-12 text-center">
+          <p class="text-base sm:text-lg mb-3 sm:mb-4 text-white">
+            {{ $t("contact.location") }}
+          </p>
+          <p class="text-lg sm:text-xl md:text-2xl font-bold text-white">
             Toshkent shahar, Yashnobod tumani, 6
           </p>
         </div>

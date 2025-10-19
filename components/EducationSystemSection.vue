@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 bg-white relative overflow-hidden">
+  <section class="py-12 sm:py-16 md:py-20 bg-white relative overflow-hidden">
     <!-- Pattern -->
     <PatternDecorator
       color="blue"
@@ -12,19 +12,25 @@
       :z-index="0"
     />
 
-    <div class="container relative z-10">
-      <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4" style="color: #1946b9">
+    <div class="container relative z-10 px-4">
+      <div class="text-center mb-10 sm:mb-12 md:mb-16">
+        <h2
+          class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4 px-4"
+          style="color: #1946b9"
+        >
           {{ $t("education.title") }}
         </h2>
-        <p class="text-xl max-w-3xl mx-auto mb-8" style="color: #6b7280">
+        <p
+          class="text-base sm:text-lg md:text-xl max-w-3xl mx-auto mb-6 sm:mb-8 px-4"
+          style="color: #6b7280"
+        >
           {{ $t("education.subtitle") }}
         </p>
       </div>
 
       <!-- Goal -->
       <div
-        class="rounded-3xl p-12 text-white text-center relative overflow-hidden"
+        class="rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 text-white text-center relative overflow-hidden"
         style="background: linear-gradient(135deg, #1946b9 0%, #153d9e 100%)"
       >
         <!-- Pattern in goal section -->
@@ -40,10 +46,14 @@
         />
 
         <div class="relative z-10">
-          <h3 class="text-3xl md:text-4xl font-bold mb-6 text-white">
+          <h3
+            class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-white px-4"
+          >
             {{ $t("education.goal.title") }}
           </h3>
-          <p class="text-xl max-w-3xl mx-auto leading-relaxed text-white/90">
+          <p
+            class="text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed text-white/90 px-4"
+          >
             {{ $t("education.goal.description") }}
           </p>
         </div>

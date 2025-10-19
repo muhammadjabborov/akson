@@ -1,5 +1,8 @@
 <template>
-  <section ref="sectionRef" class="py-16 bg-white relative overflow-hidden">
+  <section
+    ref="sectionRef"
+    class="py-12 sm:py-14 md:py-16 bg-white relative overflow-hidden"
+  >
     <!-- Pattern -->
     <PatternDecorator
       color="blue"
@@ -12,8 +15,8 @@
       :z-index="0"
     />
 
-    <div class="container relative z-10">
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+    <div class="container relative z-10 px-4">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
         <div
           v-for="(stat, index) in stats"
           :key="stat.id"
@@ -22,7 +25,7 @@
           <!-- Divider line between items (except last) -->
           <div
             v-if="index < stats.length - 1"
-            class="hidden md:block absolute top-1/2 right-0 w-px h-24 transform -translate-y-1/2 opacity-60"
+            class="hidden md:block absolute top-1/2 right-0 w-px h-20 sm:h-24 transform -translate-y-1/2 opacity-60"
             style="
               background: linear-gradient(
                 to bottom,
@@ -35,12 +38,15 @@
 
           <!-- Value and Label -->
           <div
-            class="text-5xl md:text-6xl font-bold mb-3"
+            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 sm:mb-3"
             style="color: #1946b9"
           >
             {{ animatedValues[index] }}{{ stat.suffix }}
           </div>
-          <div class="font-medium leading-relaxed" style="color: #6b7280">
+          <div
+            class="text-sm sm:text-base font-medium leading-relaxed px-2"
+            style="color: #6b7280"
+          >
             {{ stat.label }}
           </div>
         </div>

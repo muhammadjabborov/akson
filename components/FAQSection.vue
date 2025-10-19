@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 bg-white relative overflow-hidden">
+  <section class="py-12 sm:py-16 md:py-20 bg-white relative overflow-hidden">
     <!-- Pattern -->
     <PatternDecorator
       color="blue"
@@ -12,39 +12,45 @@
       :z-index="0"
     />
 
-    <div class="container relative z-10">
+    <div class="container relative z-10 px-4">
       <!-- Title -->
-      <div class="text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4" style="color: #1946b9">
+      <div class="text-center mb-10 sm:mb-12 md:mb-16">
+        <h2
+          class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4"
+          style="color: #1946b9"
+        >
           {{ $t("faq.title") }}
         </h2>
-        <p class="text-xl max-w-3xl mx-auto" style="color: #6b7280">
+        <p
+          class="text-base sm:text-lg md:text-xl max-w-3xl mx-auto"
+          style="color: #6b7280"
+        >
           {{ $t("faq.subtitle") }}
         </p>
       </div>
 
       <!-- FAQ Items -->
-      <div class="max-w-4xl mx-auto space-y-4">
+      <div class="max-w-4xl mx-auto space-y-3 sm:space-y-4">
         <div
           v-for="(faq, index) in faqs"
           :key="faq.id"
-          class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border-2 border-[#fed116]"
+          class="bg-white rounded-xl sm:rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border-2 border-[#fed116]"
         >
           <button
             @click="toggleFaq(index)"
-            class="w-full px-6 py-5 flex items-center justify-between text-left transition-colors"
+            class="w-full px-4 sm:px-5 md:px-6 py-4 sm:py-5 flex items-center justify-between text-left transition-colors"
             :class="
               openFaqs.includes(index) ? 'bg-[#fed116]' : 'hover:bg-gray-50'
             "
           >
             <h3
-              class="text-base md:text-lg font-semibold pr-4"
+              class="text-sm sm:text-base md:text-lg font-semibold pr-3 sm:pr-4"
               style="color: #111827"
             >
               {{ faq.question }}
             </h3>
             <div
-              class="flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300"
+              class="flex-shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center transition-all duration-300"
               :style="
                 openFaqs.includes(index)
                   ? 'background-color: #1946b9'
@@ -57,13 +63,13 @@
                     ? 'heroicons:minus'
                     : 'heroicons:plus'
                 "
-                class="w-5 h-5 text-white"
+                class="w-4 h-4 sm:w-5 sm:h-5 text-white"
               />
             </div>
           </button>
           <div
             v-if="openFaqs.includes(index)"
-            class="px-6 pb-5 pt-2 leading-relaxed text-sm md:text-base"
+            class="px-4 sm:px-5 md:px-6 pb-4 sm:pb-5 pt-2 leading-relaxed text-xs sm:text-sm md:text-base"
             style="color: #6b7280"
           >
             {{ faq.answer }}

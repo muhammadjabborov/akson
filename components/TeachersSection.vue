@@ -1,21 +1,27 @@
 <template>
-  <section id="teachers" class="py-20 bg-white">
+  <section id="teachers" class="py-12 sm:py-16 md:py-20 bg-white">
     <div class="">
-      <div class="container text-center mb-16">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4" style="color: #1946b9">
+      <div class="container text-center mb-10 sm:mb-12 md:mb-16 px-4">
+        <h2
+          class="text-3xl sm:text-4xl md:text-5xl font-bold mb-3 sm:mb-4"
+          style="color: #1946b9"
+        >
           {{ $t("teachers.title") }}
         </h2>
-        <p class="text-xl max-w-3xl mx-auto" style="color: #6b7280">
+        <p
+          class="text-base sm:text-lg md:text-xl max-w-3xl mx-auto"
+          style="color: #6b7280"
+        >
           {{ $t("teachers.subtitle") }}
         </p>
       </div>
 
       <div
-        class="relative w-full flex justify-between items-center mt-11 overflow-hidden"
+        class="relative w-full flex justify-between items-center mt-8 sm:mt-10 md:mt-11 overflow-hidden"
       >
         <div class="relative container">
           <div
-            class="overflow-hidden px-[150px] !pb-[60px] -mx-[150px] md:py-5 md:-my-5 relative z-0"
+            class="overflow-hidden px-4 sm:px-8 md:px-[150px] !pb-[40px] sm:!pb-[50px] md:!pb-[60px] -mx-4 sm:-mx-8 md:-mx-[150px] md:py-5 md:-my-5 relative z-0"
           >
             <ClientOnly>
               <Swiper
@@ -24,10 +30,12 @@
               >
                 <SwiperSlide v-for="(teacher, idx) of teachers" :key="idx">
                   <div
-                    class="flex flex-col relative course-element h-max w-full rounded-2xl overflow-hidden flex-shrink-0 duration-200 shadow-xl bg-white"
+                    class="flex flex-col relative course-element h-max w-full rounded-xl sm:rounded-2xl overflow-hidden flex-shrink-0 duration-200 shadow-xl bg-white"
                   >
                     <!-- Teacher Image -->
-                    <div class="relative h-[260px] overflow-hidden">
+                    <div
+                      class="relative h-[200px] sm:h-[240px] md:h-[260px] overflow-hidden"
+                    >
                       <img
                         :src="teacher.image"
                         :alt="teacher.name"
@@ -37,12 +45,18 @@
 
                     <!-- Teacher Info (White Section) -->
                     <div
-                      class="h-[35%] bg-white p-6 flex flex-col justify-center"
+                      class="h-[35%] bg-white p-4 sm:p-5 md:p-6 flex flex-col justify-center"
                     >
-                      <h3 class="text-xl font-bold mb-2" style="color: #111827">
+                      <h3
+                        class="text-base sm:text-lg md:text-xl font-bold mb-1 sm:mb-2"
+                        style="color: #111827"
+                      >
                         {{ teacher.name }}
                       </h3>
-                      <p class="text-sm font-medium" style="color: #6b7280">
+                      <p
+                        class="text-xs sm:text-sm font-medium"
+                        style="color: #6b7280"
+                      >
                         {{ teacher.position }}
                       </p>
                     </div>
