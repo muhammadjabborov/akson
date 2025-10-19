@@ -1,3 +1,299 @@
 {
-  "hello": "Hello"
+  "hello": "Salom",
+  "nav": {
+    "about": "Biz haqimizda",
+    "features": "Xususiyatlar",
+    "teachers": "O'qituvchilar",
+    "results": "Natijalar",
+    "contact": "Aloqa",
+    "consultation": "Konsultatsiya olish",
+    "courses": "Bizning kurslar"
+  },
+  "consultation": {
+    "title": "Konsultatsiya olish",
+    "subtitle": "Ma'lumotlaringizni qoldiring va biz sizga tez orada qo'ng'iroq qilamiz",
+    "fullName": "Ism va Familiya",
+    "fullNamePlaceholder": "Ism va Familiyangizni kiriting",
+    "phone": "Telefon raqami",
+    "phoneHint": "9 xonali raqamni kiriting (masalan: 90 123 45 67)",
+    "submit": "Yuborish",
+    "submitting": "Yuborilmoqda...",
+    "success": "Ma'lumotlaringiz muvaffaqiyatli yuborildi! Tez orada sizga qo'ng'iroq qilamiz."
+  },
+  "hero": {
+    "title": "O'zbekistondagi matematikaga ixtisoslashtirilgan TOP-5'likdagi maktab",
+    "subtitle": "Dunyoning TOP universitetlariga tayyorlaydigan maktab! Akson maktabi.",
+    "cta": "Ma'lumot olish",
+    "learnMore": "Batafsil",
+    "stats": {
+      "years": "Yil xalqaro va respublika ta'lim sohasidagi tajriba",
+      "students": "O'quvchilar ro'yxatdan o'tgan",
+      "olympiads": "Onlayn olimpiadalar",
+      "graduates": "Ixtisoslashtirilgan maktab bitiruvchilari"
+    }
+  },
+  "goals": {
+    "title": "Akson xalqaro maktabi oliy maqsadi nima?",
+    "subtitle": "Farzandingiz ta'limidagi muammolarga yechim berish biz uchun muhim!",
+    "cta": "Ma'lumot olish",
+    "goal1": {
+      "title": "TOP universitetlar & Xalqaro olimpiadalar",
+      "description": "Xalqaro olimpiada g'oliblaridan interaktiv darslar"
+    },
+    "goal2": {
+      "title": "Tanqidiy fikrlash, IELTS & SAT",
+      "description": "Darsdan tashqari tanqidiy fikrlash, muammo yechish, IELTS va SAT bo'yicha maxsus mashg'ulotlar o'tkaziladi."
+    },
+    "goal3": {
+      "title": "Tajribali ustozlar & Seminarlar",
+      "description": "Darslar xalqaro olimpiada g'oliblari va o'z sohasining yetuk mutaxassislari tomonidan olib boriladi."
+    }
+  },
+  "courses": {
+    "titleLine1": {
+      "part1": "Bugungi",
+      "part2": " o'quvchilar"
+    },
+    "titleLine2": {
+      "part1": "Ertangi",
+      "part2": " umidlar"
+    },
+    "titleLine3": {
+      "part1": "Iqtidor bilan",
+      "part2": " kelajakka qadam tashlang"
+    },
+    "description": "Bizning kurslarimiz zamonaviy texnologiyalar va innovatsion ta'lim usullari bilan boyitilgan. Har bir o'quvchi o'zining qobiliyatlarini to'liq namoyon qilish va professional darajaga erishish imkoniyatiga ega.",
+    "cta": "Barcha kurslarni ko'rish",
+    "category1": "Kompyuter",
+    "category2": "3D",
+    "category3": "Dizayn",
+    "category4": "Til",
+    "category5": "Dasturlash",
+    "category6": "Marketing",
+    "category7": "Robototexnika",
+    "category8": "Mobil",
+    "category9": "Asosiy",
+    "category10": "Backend",
+    "course1": "Kompyuter savodxonligi",
+    "course2": "3D-modellashtirish",
+    "course3": "Grafik dizayn",
+    "course4": "IT uchun ingliz tili",
+    "course5": "Frontend dasturlash",
+    "course6": "SMM kurslari",
+    "course7": "Robototexnika",
+    "course8": "Mobile Developer",
+    "course9": "IT asosi (Python)",
+    "course10": "Backend dasturlash"
+  },
+  "callback": {
+    "title": "2025-2026 - yil uchun qabul ketmoqda!",
+    "subtitle": "Ma'lumotlaringizni yozib qoldiring va biz sizga tez orada bog'lanamiz",
+    "form": {
+      "namePlaceholder": "Ism-Familiyangiz",
+      "submit": "Ma'lumot olish",
+      "success": "Ma'lumotlaringiz muvaffaqiyatli yuborildi! Tez orada sizga aloqaga chiqamiz."
+    }
+  },
+  "features": {
+    "title": "Nega Akson maktabini tanlashingiz kerak?",
+    "subtitle": "Farzandingiz uchun kompleks yechim izlayotgan bo'lsangiz, Akson maktabi aynan to'g'ri manzil!",
+    "interactive": {
+      "title": "Interaktiv darslar",
+      "description": "Xalqaro olimpiada g'oliblaridan interaktiv darslar"
+    },
+    "sat": {
+      "title": "SAT va IELTS",
+      "description": "Darsdan tashqari, tanqidiy fikrlash va muammoni hal qilish, SAT va IELTS darslari"
+    },
+    "olympiads": {
+      "title": "Mahalliy va xalqaro olimpiadalar",
+      "description": "Har oylik yutuqli olimpiadalar"
+    },
+    "seminars": {
+      "title": "Seminarlar va suhbatlar",
+      "description": "Ilm-fanning yetuk namoyondalari bilan ilmiy suhbatlar va seminarlar"
+    },
+    "nutrition": {
+      "title": "Sog'lom taomlanish",
+      "description": "4 mahal halol va sog'lom taomlanish"
+    },
+    "sports": {
+      "title": "Sport to'garaklari",
+      "description": "Muntazam sport to'garaklari va har oylik musobaqalar"
+    }
+  },
+  "education": {
+    "title": "Akson xalqaro maktabining ta'lim tizimi",
+    "subtitle": "Akson maktabida STEAM yo'nalishlari zamonaviy va amaliy ta'lim orqali uyg'unlashtirilgan. Matematika, dasturlash, robototexnika, laboratoriya mashg'ulotlari, san'at va mantiqiy fikrlash – barchasi birgalikda o'quvchilarning ijodiy va texnik salohiyatini rivojlantirishga xizmat qiladi.",
+    "goal": {
+      "title": "Akson xalqaro maktabi oliy maqsadi nima?",
+      "description": "Farzandingiz ta'limidagi muammolarga yechim berish biz uchun muhim!"
+    },
+    "principles": {
+      "noRanking": {
+        "title": "Reyting, tanlov va ajratish yo'q",
+        "description": "Bizda o'quvchilar shaxsiy xususiyatlari yoki ballariga qarab tasniflanmaydi. Har kim o'z imkoniyatiga qarab rivojlanadi."
+      },
+      "individual": {
+        "title": "Har bir bola o'z darajasida o'qiydi",
+        "description": "Bizning tizimda har bir o'quvchiga individual darajasiga mos mashqlar beriladi. Agar oddiy mashqni bajarsa — keyingi darajaga o'tadi."
+      },
+      "noFavoritism": {
+        "title": "O'qituvchilar tarafkashlik qilmaydi",
+        "description": "Bizda bunday holatga keskin qarshilik bor. O'qituvchi har bir bolaga bir xil mehr va e'tibor beradi."
+      }
+    }
+  },
+  "teachers": {
+    "title": "Tajribali o'qituvchilarimiz bilan tanishing",
+    "subtitle": "Farzandingiz o'qishdagi qiyinchiliklarini oson va samarali hal qilishga yordam beramiz!",
+    "teacher1": {
+      "name": "Sardor Bozorboyev",
+      "position": "Maktab asoschisi va direktori",
+      "subject": "Matematika ustozi"
+    },
+    "teacher2": {
+      "name": "Abdullayev Salimdxo'ja",
+      "position": "Matematika ustozi",
+      "subject": "Matematika fani"
+    },
+    "teacher3": {
+      "name": "Oltiboyev Davrbek",
+      "position": "Direktor o'rinbosari",
+      "subject": "Matematika ustozi"
+    },
+    "teacher4": {
+      "name": "Gadovniyoz Navruzov",
+      "position": "Biologiya fani ustozi",
+      "subject": "Biologiya"
+    },
+    "teacher5": {
+      "name": "Mamanova Dinora",
+      "position": "Biologiya fani ustozi",
+      "subject": "Biologiya"
+    },
+    "teacher6": {
+      "name": "Gadovniyoz Navruzov",
+      "position": "Matematika ustozi",
+      "subject": "Matematika"
+    }
+  },
+  "results": {
+    "title": "O'quvchilar natijalari",
+    "subtitle": "Bizning o'quvchilarimizning yutuqlari va muvaffaqiyatlari",
+    "status": {
+      "accepted": "Qabul qilindi"
+    },
+    "student1": {
+      "name": "Komronbek Normamatov",
+      "achievement": "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan IT maktabiga qabul qilindi",
+      "score": "104 balldan 96,5 ball"
+    },
+    "student2": {
+      "name": "Komiljonov Bexruzmuhammad",
+      "achievement": "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan IT maktabiga qabul qilindi",
+      "score": "104 balldan 93,4 ball"
+    },
+    "student3": {
+      "name": "Salomova Dono",
+      "achievement": "Toshkent viloyatidagi Prezident maktabiga qabul qilindi",
+      "score": "Maksimal 104 balldan 101,53 ball"
+    },
+    "student4": {
+      "name": "Rizoqulova Yasmina",
+      "achievement": "Toshkent shahridagi Prezident maktabiga qabul qilindi",
+      "score": "Maksimal 104 balldan 101,53 ball"
+    },
+    "student5": {
+      "name": "Xamidullayev Maxmud",
+      "achievement": "Jizzax viloyatidagi Prezident maktabiga qabul qilindi",
+      "score": "Maksimal 104 balldan 101,53 ball"
+    },
+    "student6": {
+      "name": "Mamayusupov Akbarjon",
+      "achievement": "Toshkent shahridagi Prezident maktabiga qabul qilindi",
+      "score": "87,5 ball (2 o'rin)"
+    }
+  },
+  "feedbacks": {
+    "title": "O'quvchilar fikrlari",
+    "subtitle": "Bizning o'quvchilarimizning video sharhlari",
+    "video1": {
+      "title": "Komronbek Normamatov",
+      "description": "Prezident maktabiga qabul qilingan o'quvchi"
+    },
+    "video2": {
+      "title": "Salomova Dono",
+      "description": "IT maktabiga qabul qilingan o'quvchi"
+    },
+    "video3": {
+      "title": "Rizoqulova Yasmina",
+      "description": "Xalqaro olimpiada g'olibi"
+    }
+  },
+  "testimonials": {
+    "title": "Mijoz fikrlari",
+    "subtitle": "Bizning o'quvchilar va ota-onalar biz haqimizda nima deyishadi",
+    "testimonial1": {
+      "name": "Aziza Nurova",
+      "role": "Ota-ona",
+      "text": "Akson maktabida o'qiganimizdan juda mamnunmiz. Farzandimiz matematika va dasturlash bo'yicha ajoyib bilim oldi va Prezident maktabiga qabul qilindi!"
+    },
+    "testimonial2": {
+      "name": "Sardor Dadaboyev",
+      "role": "Ota-ona",
+      "text": "O'qituvchilar juda tajribali va har bir o'quvchiga individual yondashadi. Farzandimizning natijalari sezilarli darajada yaxshilandi."
+    },
+    "testimonial3": {
+      "name": "Madina Karimova",
+      "role": "Ota-ona",
+      "text": "Maktabimizda faqat ta'lim emas, balki ijtimoiy va madaniy tadbirlar ham ko'p. Farzandimiz maktabda o'qishni juda yaxshi ko'radi."
+    }
+  },
+  "faq": {
+    "title": "Ko'p beriladigan savollar",
+    "subtitle": "Sizda tug'ulishi mumkin bo'lgan savollarga javob oling",
+    "q1": {
+      "question": "Akson'da yotoqxona bormi?",
+      "answer": "Maktabimizda yotoqxona mavjud emas."
+    },
+    "q2": {
+      "question": "Pulni bo'lib to'lash imkoniyati bormi?",
+      "answer": "Albatta, bor. Maktabning yillik to'lovini yo ikkiga bo'lib har 6 oyda yoki oyma-oy to'lov uslubida amalga oshirishingiz mumkin."
+    },
+    "q3": {
+      "question": "Narx tez-tez o'zgarib turadimi?",
+      "answer": "Akson maktabi ta'lim xizmatlari uchun to'lov miqdori faqat bir yilda bir marta o'zgarishi mumkin."
+    },
+    "q4": {
+      "question": "O'qituvchilar tajribalimi? Ular talabalar emasmi?",
+      "answer": "Akson maktabida shahrimizning eng malakali ustozlari ta'lim berishadi."
+    },
+    "q5": {
+      "question": "Maktabda forma kiyish majburiymi?",
+      "answer": "Maktabda o'quvchilar o'rtasidagi ijtimoiy tafovutni bartaraf etish va o'zaro tenglik hissini ta'minlash maqsadida barcha uchun qulay va ko'rkam maktab formasi joriy qilingan."
+    }
+  },
+  "contact": {
+    "title": "Ma'lumotlaringizni qoldiring!",
+    "subtitle": "Bizning maktabimiz Toshkent shahrida joylashgan!",
+    "location": "Bizning manzil:",
+    "form": {
+      "name": "Ismingiz",
+      "namePlaceholder": "Ismingizni kiriting",
+      "phone": "Telefon raqamingiz",
+      "phonePlaceholder": "+998 XX XXX XX XX",
+      "message": "Xabaringiz",
+      "messagePlaceholder": "Xabaringizni yozing...",
+      "submit": "Yuborish",
+      "success": "Xabaringiz muvaffaqiyatli yuborildi! Tez orada menejerlar sizga aloqaga chiqishadi."
+    }
+  },
+  "footer": {
+    "contact": "Aloqa uchun",
+    "address": "Toshkent shahar, Yashnobod tumani, 6",
+    "quickLinks": "Tezkor havolalar",
+    "socialMedia": "Bizning ijtimoiy tarmoqlar",
+    "rights": "Barcha huquqlar himoyalangan"
+  }
 }
