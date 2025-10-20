@@ -5,6 +5,17 @@ export default defineNuxtConfig({
   compatibilityDate: "2025-05-15",
   devtools: { enabled: true },
   css: ["~/assets/css/index.css", "swiper/css"],
+  app: {
+    head: {
+      link: [
+        {
+          rel: "icon",
+          type: "image/x-icon",
+          href: `/akson-yellow-short-logo.svg`,
+        },
+      ],
+    },
+  },
   modules: [
     "@nuxt/eslint",
     "@nuxt/icon",

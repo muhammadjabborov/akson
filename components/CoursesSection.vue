@@ -28,22 +28,15 @@
             <span style="color: #1946b9">{{
               $t("courses.titleLine1.part1")
             }}</span>
-            <span style="color: #42a5f5">{{
-              $t("courses.titleLine1.part2")
-            }}</span>
+            <span style="color: #42a5f5"
+              >{{ $t("courses.titleLine1.part2") }},</span
+            >
             <br />
             <span style="color: #1946b9">{{
               $t("courses.titleLine2.part1")
             }}</span>
             <span style="color: #42a5f5">{{
               $t("courses.titleLine2.part2")
-            }}</span>
-            <br />
-            <span style="color: #1946b9">{{
-              $t("courses.titleLine3.part1")
-            }}</span>
-            <span style="color: #42a5f5">{{
-              $t("courses.titleLine3.part2")
             }}</span>
           </h2>
         </div>
@@ -60,61 +53,48 @@
       </div>
 
       <!-- Courses Grid - Custom Layout: 2 top, 3 bottom -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-6"
+      >
         <!-- Top Row - 2 cards spanning full width -->
         <div
-          v-for="course in topRowCourses"
+          v-for="course in courses"
           :key="course.id"
-          class="sm:col-span-1 lg:col-span-1 rounded-2xl sm:rounded-3xl p-5 sm:p-6 transition-all duration-300 hover:scale-105 cursor-pointer"
-          :style="`background-color: ${course.bgColor};`"
+          class="group sm:col-span-1 lg:col-span-1 bg-white rounded-2xl p-8 sm:p-10 border border-gray-100 hover:border-transparent hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 cursor-pointer relative overflow-hidden"
         >
-          <!-- Category -->
-          <div class="flex items-center gap-2 mb-3 sm:mb-4">
-            <Icon
-              :name="course.categoryIcon"
-              class="!w-4 !h-4 sm:!w-5 sm:!h-5"
-              style="color: #616161"
-            />
-            <span class="text-xs sm:text-sm font-medium" style="color: #616161">
-              {{ course.category }}
-            </span>
+          <!-- Decorative background gradient on hover -->
+          <div
+            class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+            :style="`background: linear-gradient(135deg, ${course.bgColor} 0%, transparent 100%);`"
+          ></div>
+
+          <!-- Content wrapper -->
+          <div class="relative z-10">
+            <!-- Icon Badge -->
+            <div
+              class="w-14 h-14 rounded-2xl flex items-center justify-center mb-8 transition-all duration-500 group-hover:scale-110 group-hover:shadow-lg"
+              :style="`background: ${course.bgColor};`"
+            >
+              <Icon
+                :name="course.categoryIcon"
+                class="!w-7 !h-7 transition-transform duration-500 group-hover:rotate-6"
+                :style="`color: ${course.titleColor};`"
+              />
+            </div>
+
+            <!-- Course Title -->
+            <h3
+              class="text-xl sm:text-2xl font-bold leading-tight text-gray-900 group-hover:text-gray-800 transition-colors duration-300"
+            >
+              {{ course.title }}
+            </h3>
+
+            <!-- Decorative line -->
+            <div
+              class="mt-6 h-1 w-12 rounded-full transition-all duration-500 group-hover:w-16"
+              :style="`background: ${course.titleColor};`"
+            ></div>
           </div>
-
-          <!-- Course Title -->
-          <h3
-            class="text-base sm:text-lg md:text-xl font-bold leading-tight"
-            :style="`color: ${course.titleColor};`"
-          >
-            {{ course.title }}
-          </h3>
-        </div>
-
-        <!-- Bottom Row - 3 cards -->
-        <div
-          v-for="course in bottomRowCourses"
-          :key="course.id"
-          class="sm:col-span-1 lg:col-span-1 rounded-2xl sm:rounded-3xl p-5 sm:p-6 transition-all duration-300 hover:scale-105 cursor-pointer"
-          :style="`background-color: ${course.bgColor};`"
-        >
-          <!-- Category -->
-          <div class="flex items-center gap-2 mb-3 sm:mb-4">
-            <Icon
-              :name="course.categoryIcon"
-              class="!w-4 !h-4 sm:!w-5 sm:!h-5"
-              style="color: #616161"
-            />
-            <span class="text-xs sm:text-sm font-medium" style="color: #616161">
-              {{ course.category }}
-            </span>
-          </div>
-
-          <!-- Course Title -->
-          <h3
-            class="text-base sm:text-lg md:text-xl font-bold leading-tight"
-            :style="`color: ${course.titleColor};`"
-          >
-            {{ course.title }}
-          </h3>
         </div>
       </div>
     </div>
@@ -127,7 +107,7 @@ const { t } = useI18n();
 const courses = computed(() => [
   {
     id: 1,
-    categoryIcon: "heroicons:computer-desktop",
+    categoryIcon: "heroicons:beaker",
     category: t("courses.category1"),
     title: t("courses.course1"),
     bgColor: "#e3f2fd",
@@ -135,38 +115,37 @@ const courses = computed(() => [
   },
   {
     id: 2,
-    categoryIcon: "heroicons:cube",
+    categoryIcon: "heroicons:scale",
     category: t("courses.category2"),
     title: t("courses.course2"),
-    bgColor: "#fff9c4",
-    titleColor: "#f57f17",
+    bgColor: "#e8f5e9",
+    titleColor: "#2e7d32",
   },
   {
     id: 3,
-    categoryIcon: "heroicons:pencil",
+    categoryIcon: "heroicons:calculator",
     category: t("courses.category3"),
     title: t("courses.course3"),
-    bgColor: "#e8eaf6",
-    titleColor: "#1946b9",
+    bgColor: "#f3e5f5",
+    titleColor: "#7b1fa2",
   },
   {
     id: 4,
-    categoryIcon: "heroicons:language",
+    categoryIcon: "heroicons:book-open",
     category: t("courses.category4"),
     title: t("courses.course4"),
     bgColor: "#fff3e0",
-    titleColor: "#f57f17",
+    titleColor: "#e65100",
   },
   {
     id: 5,
-    categoryIcon: "heroicons:code-bracket",
+    categoryIcon: "heroicons:academic-cap",
     category: t("courses.category5"),
     title: t("courses.course5"),
     bgColor: "#e1f5fe",
-    titleColor: "#1946b9",
+    titleColor: "#0277bd",
   },
 ]);
 
-const topRowCourses = computed(() => courses.value.slice(0, 2));
-const bottomRowCourses = computed(() => courses.value.slice(2, 5));
+const topRowCourses = computed(() => courses);
 </script>

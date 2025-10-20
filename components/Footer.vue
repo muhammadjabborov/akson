@@ -18,7 +18,7 @@
                 name="heroicons:phone"
                 class="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0"
               />
-              <span>+998 78 777 77 99</span>
+              <span>+998 99 186 14 14</span>
             </p>
             <p
               class="flex items-center space-x-2 text-sm sm:text-base text-white/90"
@@ -72,7 +72,8 @@
           </h3>
           <div class="flex space-x-3 sm:space-x-4">
             <a
-              href="#"
+              href="https://www.instagram.com/akson_talim_markaz"
+              target="_blank"
               class="w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center hover:opacity-80 transition-colors flex-shrink-0"
               style="background-color: #fed116; color: #1946b9"
             >
@@ -83,24 +84,14 @@
               />
             </a>
             <a
-              href="#"
+              target="_blank"
+              href="https://t.me/akson_talim_markaz"
               class="w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center hover:opacity-80 transition-colors flex-shrink-0"
               style="background-color: #fed116; color: #1946b9"
             >
               <img
                 src="/brand-telegram.svg"
                 alt="Telegram"
-                class="w-5 h-5 sm:w-6 sm:h-6"
-              />
-            </a>
-            <a
-              href="#"
-              class="w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center hover:opacity-80 transition-colors flex-shrink-0"
-              style="background-color: #fed116; color: #1946b9"
-            >
-              <img
-                src="/brand-youtube.svg"
-                alt="Youtube"
                 class="w-5 h-5 sm:w-6 sm:h-6"
               />
             </a>

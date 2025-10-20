@@ -63,10 +63,10 @@ const isVisible = ref(false);
 const hasAnimated = ref(false);
 
 const stats = computed(() => [
-  { id: 1, value: 5, suffix: "", label: t("hero.stats.years") },
-  { id: 2, value: 100, suffix: "+", label: t("hero.stats.students") },
-  { id: 3, value: 300, suffix: "+", label: t("hero.stats.olympiads") },
-  { id: 4, value: 200, suffix: "+", label: t("hero.stats.graduates") },
+  { id: 1, value: 20, suffix: "", label: t("hero.stats.years") },
+  { id: 2, value: 7, suffix: "+", label: t("hero.stats.students") },
+  { id: 3, value: 1000, suffix: "+", label: t("hero.stats.olympiads") },
+  { id: 4, value: 150, suffix: "+", label: t("hero.stats.graduates") },
 ]);
 
 const animatedValues = ref([0, 0, 0, 0]);

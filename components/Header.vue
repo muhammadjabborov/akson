@@ -34,11 +34,11 @@
               style="color: #1946b9"
             />
             <a
-              href="tel:+998787777799"
+              href="tel:+998991861414"
               class="font-semibold hover:opacity-80 transition-colors"
               style="color: #1946b9"
             >
-              +998 78 777 77 99
+              +998 99 186 14 14
             </a>
           </div>
 

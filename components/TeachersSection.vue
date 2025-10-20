@@ -39,7 +39,7 @@
                       <img
                         :src="teacher.image"
                         :alt="teacher.name"
-                        class="w-full h-full object-cover"
+                        class="w-full h-full object-cover object-top"
                       />
                     </div>
 
@@ -101,45 +101,24 @@ const { t } = useI18n();
 const teachers = computed(() => [
   {
     id: 1,
-    image: "https://picsum.photos/500/300",
+    image: "/teachers/ceo.png",
     name: t("teachers.teacher1.name"),
     position: t("teachers.teacher1.position"),
     subject: t("teachers.teacher1.subject"),
   },
   {
     id: 2,
-    image: "https://picsum.photos/500/300",
+    image: "/teachers/chemistry.png",
     name: t("teachers.teacher2.name"),
     position: t("teachers.teacher2.position"),
     subject: t("teachers.teacher2.subject"),
   },
   {
     id: 3,
-    image: "https://picsum.photos/500/300",
+    image: "/teachers/math.png",
     name: t("teachers.teacher3.name"),
     position: t("teachers.teacher3.position"),
     subject: t("teachers.teacher3.subject"),
-  },
-  {
-    id: 4,
-    image: "https://picsum.photos/500/300",
-    name: t("teachers.teacher4.name"),
-    position: t("teachers.teacher4.position"),
-    subject: t("teachers.teacher4.subject"),
-  },
-  {
-    id: 5,
-    image: "https://picsum.photos/500/300",
-    name: t("teachers.teacher5.name"),
-    position: t("teachers.teacher5.position"),
-    subject: t("teachers.teacher5.subject"),
-  },
-  {
-    id: 6,
-    image: "https://picsum.photos/500/300",
-    name: t("teachers.teacher6.name"),
-    position: t("teachers.teacher6.position"),
-    subject: t("teachers.teacher6.subject"),
   },
 ]);
 

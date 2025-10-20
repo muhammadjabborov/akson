@@ -21,73 +21,61 @@
     "success": "Ma'lumotlaringiz muvaffaqiyatli yuborildi! Tez orada sizga qo'ng'iroq qilamiz."
   },
   "hero": {
-    "title": "O'zbekistondagi matematikaga ixtisoslashtirilgan TOP-5'likdagi maktab",
-    "subtitle": "Dunyoning TOP universitetlariga tayyorlaydigan maktab! Akson maktabi.",
+    "title": "O‘zbekistondagi kimyo-biologiya yo‘nalishidagi yetakchi ta’lim markazi",
+    "subtitle": "Milliy sertifikat va OTM yo‘lida ishonchli hamroh — Akson!",
     "cta": "Ma'lumot olish",
     "learnMore": "Batafsil",
     "stats": {
-      "years": "Yil xalqaro va respublika ta'lim sohasidagi tajriba",
-      "students": "O'quvchilar ro'yxatdan o'tgan",
-      "olympiads": "Onlayn olimpiadalar",
-      "graduates": "Ixtisoslashtirilgan maktab bitiruvchilari"
+      "years": "Tajribali ustozlar jamoasi",
+      "students": "Yillik ta’limdagi tajriba",
+      "olympiads": "Muvaffaqiyatli talabalar",
+      "graduates": " Qo‘lga kiritilgan milliy sertifikatlar"
     }
   },
   "goals": {
-    "title": "Akson xalqaro maktabi oliy maqsadi nima?",
+    "title": "Akson ta’lim markazining oliy maqsadi",
     "subtitle": "Farzandingiz ta'limidagi muammolarga yechim berish biz uchun muhim!",
     "cta": "Ma'lumot olish",
     "goal1": {
-      "title": "TOP universitetlar & Xalqaro olimpiadalar",
-      "description": "Xalqaro olimpiada g'oliblaridan interaktiv darslar"
+      "title": "Milliy sertifikat imtihonlariga to‘liq tayyorlov",
+      "description": "O‘quvchilarni milliy sertifikat tizimida yuqori natija ko‘rsatishga tayyorlash. Har bir fan uchun amaliy mashg‘ulotlar va individual metodika asosida o‘qitish."
     },
     "goal2": {
-      "title": "Tanqidiy fikrlash, IELTS & SAT",
-      "description": "Darsdan tashqari tanqidiy fikrlash, muammo yechish, IELTS va SAT bo'yicha maxsus mashg'ulotlar o'tkaziladi."
+      "title": "TOP universitetlarga tayyorlash",
+      "description": "O‘quvchilarni O‘zbekiston va xorijdagi nufuzli OTMlarga kirishga yo‘naltirish. Ilmiy tayyorgarlik, tahliliy fikrlash va test strategiyalariga chuqur e’tibor."
     },
     "goal3": {
-      "title": "Tajribali ustozlar & Seminarlar",
-      "description": "Darslar xalqaro olimpiada g'oliblari va o'z sohasining yetuk mutaxassislari tomonidan olib boriladi."
+      "title": "Yetuk va tarbiyali kadrlar yetishtirish",
+      "description": "Na faqat bilimli, balki maqsadli, mas’uliyatli va halol yoshlarni tarbiyalash. Aksonda har bir o‘quvchi — kelajakdagi yetakchi va jamiyat uchun foydali inson."
     }
   },
   "courses": {
     "titleLine1": {
-      "part1": "Bugungi",
-      "part2": " o'quvchilar"
+      "part1": "Iqtidorni",
+      "part2": " rivojlantiring"
     },
     "titleLine2": {
-      "part1": "Ertangi",
-      "part2": " umidlar"
+      "part1": "kelajakni",
+      "part2": " yarating"
     },
-    "titleLine3": {
-      "part1": "Iqtidor bilan",
-      "part2": " kelajakka qadam tashlang"
-    },
-    "description": "Bizning kurslarimiz zamonaviy texnologiyalar va innovatsion ta'lim usullari bilan boyitilgan. Har bir o'quvchi o'zining qobiliyatlarini to'liq namoyon qilish va professional darajaga erishish imkoniyatiga ega.",
+
+    "description": "Akson markazi fan va tarbiya uyg‘unligiga asoslangan ta’limni taklif etadi. Bu kurslar orqali o‘quvchilar milliy sertifikat imtihonlariga tayyorlanadi va o‘z orzularidagi OTM sari yo‘l oladi.",
     "cta": "Barcha kurslarni ko'rish",
-    "category1": "Kompyuter",
-    "category2": "3D",
-    "category3": "Dizayn",
-    "category4": "Til",
-    "category5": "Dasturlash",
-    "category6": "Marketing",
-    "category7": "Robototexnika",
-    "category8": "Mobil",
-    "category9": "Asosiy",
-    "category10": "Backend",
-    "course1": "Kompyuter savodxonligi",
-    "course2": "3D-modellashtirish",
-    "course3": "Grafik dizayn",
-    "course4": "IT uchun ingliz tili",
-    "course5": "Frontend dasturlash",
-    "course6": "SMM kurslari",
-    "course7": "Robototexnika",
-    "course8": "Mobile Developer",
-    "course9": "IT asosi (Python)",
-    "course10": "Backend dasturlash"
+    "category1": "Kimyo",
+    "category2": "Biologiya",
+    "category3": "Matemiatika",
+    "category4": "Tarix",
+    "category5": "Ona tili va adabiyot",
+
+    "course1": "Kimyo",
+    "course2": "Biologiya",
+    "course3": "Matemiatika",
+    "course4": "Tarix",
+    "course5": "Ona tili va adabiyot"
   },
   "callback": {
-    "title": "2025-2026 - yil uchun qabul ketmoqda!",
-    "subtitle": "Ma'lumotlaringizni yozib qoldiring va biz sizga tez orada bog'lanamiz",
+    "title": "Akson ta’lim markaziga qabul davom etmoqda",
+    "subtitle": "Akson markazida qabul doimiy — orzularingiz sari birinchi qadamni hoziroq tashlang.",
     "form": {
       "namePlaceholder": "Ism-Familiyangiz",
       "submit": "Ma'lumot olish",
@@ -95,39 +83,39 @@
     }
   },
   "features": {
-    "title": "Nega Akson maktabini tanlashingiz kerak?",
-    "subtitle": "Farzandingiz uchun kompleks yechim izlayotgan bo'lsangiz, Akson maktabi aynan to'g'ri manzil!",
+    "title": "Nega Akson ta’lim markazini tanlashingiz kerak?",
+    "subtitle": "Farzandingizni OTM va milliy sertifikat imtihonlariga sifatli tayyorlamoqchimisiz? Akson — natijaga yo‘naltirilgan, ilmiy yondashuvga ega markaz!",
     "interactive": {
       "title": "Interaktiv darslar",
-      "description": "Xalqaro olimpiada g'oliblaridan interaktiv darslar"
+      "description": "Tajriba va amaliyotga asoslangan zamonaviy interaktiv darslar. Har bir mavzu — hayotiy misollar va laboratoriya ishlari orqali o‘rganiladi."
     },
     "sat": {
-      "title": "SAT va IELTS",
-      "description": "Darsdan tashqari, tanqidiy fikrlash va muammoni hal qilish, SAT va IELTS darslari"
+      "title": "Kimyo va biologiya sertifikat kurslari",
+      "description": " Milliy va xalqaro standartlarga mos kimyo va biologiya tayyorlov kurslari. OTMga kirish hamda milliy sertifikat olish uchun to‘liq metodik dastur."
     },
     "olympiads": {
-      "title": "Mahalliy va xalqaro olimpiadalar",
-      "description": "Har oylik yutuqli olimpiadalar"
+      "title": "Fan bo‘yicha chuqurlashtirilgan tayyorlov",
+      "description": "Kimyo, biologiya, matematika, fizika va ona tili fanlaridan kompleks tayyorlov. Har bir yo‘nalish uchun individual o‘quv reja va mentorlik tizimi."
     },
     "seminars": {
-      "title": "Seminarlar va suhbatlar",
-      "description": "Ilm-fanning yetuk namoyondalari bilan ilmiy suhbatlar va seminarlar"
+      "title": "Seminarlar va master-klasslar",
+      "description": "Yetuk fan nomzodlari va olimlar bilan ilmiy seminarlar. Talabalarga motivatsiya, fikrlash va amaliy tajriba beruvchi uchrashuvlar."
     },
     "nutrition": {
-      "title": "Sog'lom taomlanish",
-      "description": "4 mahal halol va sog'lom taomlanish"
+      "title": "Amaliy laboratoriya mashg‘ulotlari",
+      "description": "Kimyo va biologiya fanlarida tajriba asosida o‘qitish. Har bir mavzu laboratoriya ishlarida sinovdan o‘tkaziladi."
     },
     "sports": {
-      "title": "Sport to'garaklari",
-      "description": "Muntazam sport to'garaklari va har oylik musobaqalar"
+      "title": "Fanga oid to‘garaklar",
+      "description": "Kimyo va biologiya laboratoriya to‘garaklari, ilmiy loyihalar, tajribalar. Har oy o‘tkaziladigan fan festivallari va amaliy musobaqalar."
     }
   },
   "education": {
-    "title": "Akson xalqaro maktabining ta'lim tizimi",
-    "subtitle": "Akson maktabida STEAM yo'nalishlari zamonaviy va amaliy ta'lim orqali uyg'unlashtirilgan. Matematika, dasturlash, robototexnika, laboratoriya mashg'ulotlari, san'at va mantiqiy fikrlash – barchasi birgalikda o'quvchilarning ijodiy va texnik salohiyatini rivojlantirishga xizmat qiladi.",
+    "title": "Akson ta’lim markazi — natijaga yo‘naltirilgan o‘qitish tizimi",
+    "subtitle": "Bizda har bir dars — maqsad sari qadam. Kimyo, biologiya va boshqa fanlardan chuqur tayyorlov o‘quvchilarning OTM va milliy sertifikat imtihonlarida yuqori natijaga erishishiga yordam beradi.",
     "goal": {
-      "title": "Akson xalqaro maktabi oliy maqsadi nima?",
-      "description": "Farzandingiz ta'limidagi muammolarga yechim berish biz uchun muhim!"
+      "title": "Akson ta’lim markazining asosiy maqsadi",
+      "description": "Har bir o‘quvchiga sifatli ta’lim, to‘g‘ri yo‘nalish va natijaga kafolatli tayyorgarlik berish bizning ustuvor vazifamizdir."
     },
     "principles": {
       "noRanking": {
@@ -148,34 +136,19 @@
     "title": "Tajribali o'qituvchilarimiz bilan tanishing",
     "subtitle": "Farzandingiz o'qishdagi qiyinchiliklarini oson va samarali hal qilishga yordam beramiz!",
     "teacher1": {
-      "name": "Sardor Bozorboyev",
-      "position": "Maktab asoschisi va direktori",
-      "subject": "Matematika ustozi"
+      "name": "Qunisov G'anisher",
+      "position": "Akson Ta'lim Markazi asoschisi",
+      "subject": "Biologiya ustoz"
     },
     "teacher2": {
-      "name": "Abdullayev Salimdxo'ja",
-      "position": "Matematika ustozi",
-      "subject": "Matematika fani"
+      "name": "Aytbayev Ulug'bek",
+      "position": "Kimyo ustozi",
+      "subject": "Kimyo fani"
     },
     "teacher3": {
-      "name": "Oltiboyev Davrbek",
-      "position": "Direktor o'rinbosari",
-      "subject": "Matematika ustozi"
-    },
-    "teacher4": {
-      "name": "Gadovniyoz Navruzov",
-      "position": "Biologiya fani ustozi",
-      "subject": "Biologiya"
-    },
-    "teacher5": {
-      "name": "Mamanova Dinora",
-      "position": "Biologiya fani ustozi",
-      "subject": "Biologiya"
-    },
-    "teacher6": {
-      "name": "Gadovniyoz Navruzov",
+      "name": "Imomov Ramazon",
       "position": "Matematika ustozi",
-      "subject": "Matematika"
+      "subject": "Matematika ustozi"
     }
   },
   "results": {
@@ -185,34 +158,34 @@
       "accepted": "Qabul qilindi"
     },
     "student1": {
-      "name": "Komronbek Normamatov",
-      "achievement": "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan IT maktabiga qabul qilindi",
-      "score": "104 balldan 96,5 ball"
+      "name": "MIRSOATOVA OMINA MIRSODIQ QIZI",
+      "achievement": "2025/2026-o‘quv yili qabul imtihonida 185.70 ball bilan muvaffaqiyatli natijaga erishdi.",
+      "score": "185.70 ball"
     },
     "student2": {
-      "name": "Komiljonov Bexruzmuhammad",
-      "achievement": "Muhammad al-Xorazmiy nomidagi ixtisoslashtirilgan IT maktabiga qabul qilindi",
-      "score": "104 balldan 93,4 ball"
+      "name": "BAXTIYOROVA MUXLISA JAMSHID QIZI",
+      "achievement": "2025/2026-o‘quv yili uchun qabul jarayonida 183.50 ball to‘pladi.",
+      "score": "183.50 ball"
     },
     "student3": {
-      "name": "Salomova Dono",
-      "achievement": "Toshkent viloyatidagi Prezident maktabiga qabul qilindi",
-      "score": "Maksimal 104 balldan 101,53 ball"
+      "name": "SAFAROV BEHRUZ OTABEK O'G'LI",
+      "achievement": "2025/2026-yilgi qabulda 170.30 ball to‘plagan.",
+      "score": "170.30 ball"
     },
     "student4": {
-      "name": "Rizoqulova Yasmina",
-      "achievement": "Toshkent shahridagi Prezident maktabiga qabul qilindi",
-      "score": "Maksimal 104 balldan 101,53 ball"
+      "name": "YO'LDASHEV ISLOMBEK MARIF O'G'LI",
+      "achievement": "Biologiya fanidan “B” darajadagi bilim sertifikati O‘quvchi biologiya fanidan milliy sertifikat imtihonida yuqori natijani qo‘lga kiritdi.",
+      "score": "“B” daraja"
     },
     "student5": {
-      "name": "Xamidullayev Maxmud",
-      "achievement": "Jizzax viloyatidagi Prezident maktabiga qabul qilindi",
-      "score": "Maksimal 104 balldan 101,53 ball"
+      "name": "DAVRONOV ELBEK BEKALI O'G'LI",
+      "achievement": "Ushbu hujjat Biologiya fanidan “B+” darajadagi milliy sertifikatni muvaffaqiyatli qo‘lga kiritganini tasdiqlaydi.",
+      "score": "“B+” daraja"
     },
     "student6": {
-      "name": "Mamayusupov Akbarjon",
-      "achievement": "Toshkent shahridagi Prezident maktabiga qabul qilindi",
-      "score": "87,5 ball (2 o'rin)"
+      "name": "SALIMOV SAIDAKBAR HALIMJON O'G'LI",
+      "achievement": "Umumta’lim fanlari bo‘yicha bilim darajasi to‘g‘risida Ushbu sertifikat Biologiya fanidan “B” darajasini muvaffaqiyatli qo‘lga kiritganini tasdiqlaydi.",
+      "score": "“B” daraja"
     }
   },
   "feedbacks": {
@@ -254,24 +227,28 @@
     "title": "Ko'p beriladigan savollar",
     "subtitle": "Sizda tug'ulishi mumkin bo'lgan savollarga javob oling",
     "q1": {
-      "question": "Akson'da yotoqxona bormi?",
-      "answer": "Maktabimizda yotoqxona mavjud emas."
+      "question": "Qabul yil davomida ochiqmi?",
+      "answer": "Ha, bizda qabul yil davomida davom etadi. O‘quvchilar istalgan vaqtda kurslarga yozilishlari mumkin."
     },
     "q2": {
-      "question": "Pulni bo'lib to'lash imkoniyati bormi?",
-      "answer": "Albatta, bor. Maktabning yillik to'lovini yo ikkiga bo'lib har 6 oyda yoki oyma-oy to'lov uslubida amalga oshirishingiz mumkin."
+      "question": "Darslar qanday formatda o‘tiladi?",
+      "answer": "Darslar auditoriyada, zamonaviy jihozlangan sinflarda o‘tkaziladi. Shuningdek, onlayn darslar imkoniyati ham mavjud"
     },
     "q3": {
-      "question": "Narx tez-tez o'zgarib turadimi?",
-      "answer": "Akson maktabi ta'lim xizmatlari uchun to'lov miqdori faqat bir yilda bir marta o'zgarishi mumkin."
+      "question": "Ustozlar kimlar?",
+      "answer": "Barcha darslar tajribali o‘qituvchilar, milliy sertifikat egalari va fan olimpiadalari ishtirokchilari tomonidan olib boriladi."
     },
     "q4": {
-      "question": "O'qituvchilar tajribalimi? Ular talabalar emasmi?",
-      "answer": "Akson maktabida shahrimizning eng malakali ustozlari ta'lim berishadi."
+      "question": " Darslarda nimalar o‘rganiladi?",
+      "answer": "Kimyo, biologiya, matematika, tarix va ona tili fanlari chuqurlashtirilgan tarzda o‘tiladi. Maqsad — o‘quvchilarni milliy sertifikat va OTM imtihonlariga puxta tayyorlash."
     },
     "q5": {
-      "question": "Maktabda forma kiyish majburiymi?",
+      "question": "Qanday natijalar kafolatlanadi?",
       "answer": "Maktabda o'quvchilar o'rtasidagi ijtimoiy tafovutni bartaraf etish va o'zaro tenglik hissini ta'minlash maqsadida barcha uchun qulay va ko'rkam maktab formasi joriy qilingan."
+    },
+    "q6": {
+      "question": " Sinov darsi bormi?",
+      "answer": "Ha, istalgan o‘quvchi uchun bepul sinov darsi mavjud. Bu orqali siz dars sifati va ustoz yondashuvini sinab ko‘rishingiz mumkin."
     }
   },
   "contact": {
@@ -291,7 +268,7 @@
   },
   "footer": {
     "contact": "Aloqa uchun",
-    "address": "Toshkent shahar, Yashnobod tumani, 6",
+    "address": "Toshkent, Alisher Navoiy ko’chasi, 44",
     "quickLinks": "Tezkor havolalar",
     "socialMedia": "Bizning ijtimoiy tarmoqlar",
     "rights": "Barcha huquqlar himoyalangan"
