@@ -101,7 +101,7 @@
           class="mt-4 p-4 rounded-lg flex items-center space-x-2"
           style="background-color: #d1fae5; color: #065f46"
         >
-          <Icon name="heroicons:check-circle" class="w-6 h-6" />
+          <Icon name="heroicons:check-circle" class="!w-8 !h-8" />
           <span class="font-semibold">{{ $t("consultation.success") }}</span>
         </div>
       </div>
@@ -144,8 +144,25 @@ const submitForm = async () => {
   showSuccess.value = false;
 
   try {
-    // Simulate API call
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    // Send data to Telegram bot
+    const response = await fetch(
+      "https://api.telegram.org/bot8309682282:AAEqc-BKU1amtFO1O5QxPIdXILjKWvT3Bjc/sendMessage",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          chat_id: "-1003179380895",
+          text: `🆕 Yangi Lead!\n👤: <b>${formData.value.fullName}</b>\n📞: +998 ${formData.value.phone}`,
+          parse_mode: "HTML",
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error("Failed to send message to Telegram");
+    }
 
     // Emit the form data
     emit("submit", {
@@ -162,6 +179,7 @@ const submitForm = async () => {
     }, 2000);
   } catch (error) {
     console.error("Error submitting consultation:", error);
+    alert("Xatolik yuz berdi. Iltimos, qayta urinib ko'ring.");
   } finally {
     isSubmitting.value = false;
   }
